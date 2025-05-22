@@ -14,9 +14,9 @@
 
 ```
 .
-├── clash/          # Clash 相关配置
-├── surge/          # Surge 相关配置
-└── rules/          # 通用规则文件
+└── rules/          # 规则文件目录
+    ├── surge/      # Surge 规则配置
+    └── clash/      # Clash 规则配置
 ```
 
 ## 使用说明
