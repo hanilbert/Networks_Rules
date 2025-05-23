@@ -1,0 +1,11 @@
+# NAME: EasyMarkets
+# AUTHOR: hanilbert
+# REPO: https://github.com/hanilbert/Networks_Rules
+# UPDATED: 2024-03-19
+# DOMAIN-SUFFIX: 2
+# DOMAIN-KEYWORD: 1
+# TOTAL: 3
+
+DOMAIN-SUFFIX,easymarkets.com
+DOMAIN-SUFFIX,optionsreasy.com
+DOMAIN-KEYWORD,easymarkets 

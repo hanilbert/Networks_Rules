@@ -1,0 +1,14 @@
+# NAME: ThinkMarkets
+# AUTHOR: hanilbert
+# REPO: https://github.com/hanilbert/Networks_Rules
+# UPDATED: 2024-03-19
+# DOMAIN-SUFFIX: 4
+# DOMAIN-KEYWORD: 1
+# TOTAL: 5
+
+payload:
+  - DOMAIN-SUFFIX,thinkmarkets.com
+  - DOMAIN-SUFFIX,tradeinterceptor.com
+  - DOMAIN-SUFFIX,salesforce.com
+  - DOMAIN-SUFFIX,hcaptcha.com
+  - DOMAIN-KEYWORD,thinkmarkets 

@@ -1,0 +1,34 @@
+# NAME: Trading Platform
+# AUTHOR: hanilbert
+# REPO: https://github.com/hanilbert/Networks_Rules
+# UPDATED: 2024-03-19
+# DOMAIN-SUFFIX: 13
+# DOMAIN-KEYWORD: 7
+# TOTAL: 20
+
+# Exness
+DOMAIN-KEYWORD,excalls
+DOMAIN-KEYWORD,exness
+DOMAIN-KEYWORD,eccalls
+DOMAIN-SUFFIX,marketingcloudapis.com
+DOMAIN-SUFFIX,frontrics.site
+DOMAIN-SUFFIX,jamwastanusejamlawgaplaw.com
+
+# IC Markets
+DOMAIN-SUFFIX,ctrader.com
+DOMAIN-SUFFIX,icmapac-cn.com
+DOMAIN-SUFFIX,icmarkets.com
+DOMAIN-SUFFIX,login-icm-cn.com
+DOMAIN-KEYWORD,icmarkets
+
+# ThinkMarkets
+DOMAIN-SUFFIX,thinkmarkets.com
+DOMAIN-SUFFIX,tradeinterceptor.com
+DOMAIN-SUFFIX,salesforce.com
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-KEYWORD,thinkmarkets
+
+# EasyMarkets
+DOMAIN-SUFFIX,easymarkets.com
+DOMAIN-SUFFIX,optionsreasy.com
+DOMAIN-KEYWORD,easymarkets 
