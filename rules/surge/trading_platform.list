@@ -31,4 +31,9 @@ DOMAIN-KEYWORD,thinkmarkets
 # EasyMarkets
 DOMAIN-SUFFIX,easymarkets.com
 DOMAIN-SUFFIX,optionsreasy.com
-DOMAIN-KEYWORD,easymarkets 
+DOMAIN-SUFFIX,emarkets-global.com
+DOMAIN-KEYWORD,easymarkets
+
+# MetaTrader
+DOMAIN-SUFFIX,metatrader5.com
+DOMAIN-SUFFIX,mql5.com 
