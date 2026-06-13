@@ -1,0 +1,10 @@
+# NAME: MetaTrader
+# AUTHOR: hanilbert
+# REPO: https://github.com/hanilbert/Networks_Rules
+# UPDATED: 2026-06-13
+# DOMAIN-SUFFIX: 2
+# TOTAL: 2
+
+payload:
+  - DOMAIN-SUFFIX,metatrader5.com
+  - DOMAIN-SUFFIX,mql5.com

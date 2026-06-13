@@ -2,10 +2,10 @@
 # AUTHOR: hanilbert
 # REPO: https://github.com/hanilbert/Networks_Rules
 # UPDATED: 2026-06-13
-# DOMAIN-SUFFIX: 41
+# DOMAIN-SUFFIX: 44
 # DOMAIN-KEYWORD: 12
 # IP-CIDR: 24
-# TOTAL: 77
+# TOTAL: 80
 
 payload:
   # Exness
@@ -33,7 +33,12 @@ payload:
   # EasyMarkets
   - DOMAIN-SUFFIX,easymarkets.com
   - DOMAIN-SUFFIX,optionsreasy.com
+  - DOMAIN-SUFFIX,emarkets-global.com
   - DOMAIN-KEYWORD,easymarkets
+
+  # MetaTrader
+  - DOMAIN-SUFFIX,metatrader5.com
+  - DOMAIN-SUFFIX,mql5.com
 
   # === 盈透证券 IBKR 核心服务 ===
   - DOMAIN-SUFFIX,ibkr.com
@@ -43,7 +48,10 @@ payload:
   # === Zacks 财经图表/分析平台 ===
   - DOMAIN-SUFFIX,zacks.com
 
-  # 富途证券 Futu
+  # === Akamai mPulse 性能统计服务（可选设为 REJECT 或 DIRECT，默认不启用） ===
+  # DOMAIN-SUFFIX,go-mpulse.net
+
+  # === 富途证券 Futu 核心服务 ===
   - DOMAIN-SUFFIX,futunn.com
   - DOMAIN-SUFFIX,futu5.com
   - DOMAIN-SUFFIX,futuapi.com
@@ -55,31 +63,15 @@ payload:
   - DOMAIN-SUFFIX,futuin.com
   - DOMAIN-SUFFIX,futuhk1.com
   - DOMAIN-SUFFIX,futuhongkong.com
+
+  # === Moomoo 服务 ===
   - DOMAIN-SUFFIX,moomoo.com
+
+  # === 静态资源与行情加速 ===
   - DOMAIN-SUFFIX,futustatic.com
   - DOMAIN-SUFFIX,qtlcdn.com
 
-  # Tiger Brokers
-  - DOMAIN-KEYWORD,skytigris
-  - DOMAIN-KEYWORD,laohu
-  - DOMAIN-KEYWORD,tigrwd
-  - DOMAIN-KEYWORD,tradeup
-  - DOMAIN-KEYWORD,itigerup
-
-  # Longbridge
-  - DOMAIN-SUFFIX,longbridge.com
-  - DOMAIN-SUFFIX,longbridge.hk
-  - DOMAIN-SUFFIX,longbridgehk.com
-  - DOMAIN-SUFFIX,longbridge.cn
-  - DOMAIN-SUFFIX,longbridgeapp.com
-  - DOMAIN-SUFFIX,api-status.longbridgeapp.com
-  - DOMAIN-SUFFIX,lbkrs.com
-  - DOMAIN-SUFFIX,lbctrl.com
-  - DOMAIN-SUFFIX,pbkrs.com
-  - DOMAIN-SUFFIX,longportapp.com
-  - DOMAIN-KEYWORD,lbkrs
-
-  # Tencent Cloud
+  # === 腾讯云网络段 ===
   - IP-CIDR,1.12.0.0/14,no-resolve
   - IP-CIDR,14.152.0.0/16,no-resolve
   - IP-CIDR,42.192.0.0/14,no-resolve
@@ -105,5 +97,30 @@ payload:
   - IP-CIDR,175.178.0.0/16,no-resolve
   - IP-CIDR,193.112.0.0/16,no-resolve
 
-  # === Akamai mPulse 性能统计服务（可选设为 REJECT 或 DIRECT，默认不启用） ===
-  # DOMAIN-SUFFIX,go-mpulse.net
+  # Tiger Brokers
+  - DOMAIN-KEYWORD,skytigris
+  - DOMAIN-KEYWORD,laohu
+  - DOMAIN-KEYWORD,tigrwd
+  - DOMAIN-KEYWORD,tradeup
+  - DOMAIN-KEYWORD,itigerup
+
+  # === 长桥证券 Longbridge 核心主站与登录 ===
+  - DOMAIN-SUFFIX,longbridge.com
+  - DOMAIN-SUFFIX,longbridge.hk
+  - DOMAIN-SUFFIX,longbridgehk.com
+  - DOMAIN-SUFFIX,longbridge.cn
+  - DOMAIN-SUFFIX,longbridgeapp.com
+
+  # === 接口状态服务 ===
+  - DOMAIN-SUFFIX,api-status.longbridgeapp.com
+
+  # === Longbridge 后端服务 ===
+  - DOMAIN-SUFFIX,lbkrs.com
+  - DOMAIN-SUFFIX,lbctrl.com
+
+  # === 辅助域名 ===
+  - DOMAIN-SUFFIX,pbkrs.com
+  - DOMAIN-SUFFIX,longportapp.com
+
+  # === LBKRS 相关服务关键词 ===
+  - DOMAIN-KEYWORD,lbkrs

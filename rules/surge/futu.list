@@ -6,7 +6,7 @@
 # IP-CIDR: 24
 # TOTAL: 38
 
-# 富途证券 Futu
+# === 富途证券 Futu 核心服务 ===
 DOMAIN-SUFFIX,futunn.com
 DOMAIN-SUFFIX,futu5.com
 DOMAIN-SUFFIX,futuapi.com
@@ -18,11 +18,15 @@ DOMAIN-SUFFIX,futuesop.com
 DOMAIN-SUFFIX,futuin.com
 DOMAIN-SUFFIX,futuhk1.com
 DOMAIN-SUFFIX,futuhongkong.com
+
+# === Moomoo 服务 ===
 DOMAIN-SUFFIX,moomoo.com
+
+# === 静态资源与行情加速 ===
 DOMAIN-SUFFIX,futustatic.com
 DOMAIN-SUFFIX,qtlcdn.com
 
-# Tencent Cloud
+# === 腾讯云网络段 ===
 IP-CIDR,1.12.0.0/14,no-resolve
 IP-CIDR,14.152.0.0/16,no-resolve
 IP-CIDR,42.192.0.0/14,no-resolve

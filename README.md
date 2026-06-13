@@ -22,12 +22,17 @@
 ├── Networks_Rules.json  # 图标订阅
 ├── icons/          # 图标文件目录
 │   └── ibkr.jpg
+├── scripts/
+│   └── aggregate_trading_platform.py  # 自动生成合并规则
+├── .github/workflows/
+│   └── trading-platform-rules.yml     # 自动聚合检查与回写
 └── rules/          # 规则文件目录
     ├── clash/      # Clash 规则配置
     │   ├── exness.yaml
     │   ├── icmarkets.yaml
     │   ├── thinkmarkets.yaml
     │   ├── easymarkets.yaml
+    │   ├── metatrader.yaml
     │   ├── ibkr.yaml
     │   ├── futu.yaml
     │   ├── tiger.yaml
@@ -38,6 +43,7 @@
         ├── icmarkets.list
         ├── thinkmarkets.list
         ├── easymarkets.list
+        ├── metatrader.list
         ├── ibkr.list
         ├── futu.list
         ├── tiger.list
@@ -52,6 +58,7 @@
 - IC Markets
 - ThinkMarkets
 - EasyMarkets
+- MetaTrader
 - IBKR
 - Futu
 - Tiger
@@ -59,6 +66,16 @@
 
 ### 合并规则
 - Trading Platform（包含所有交易平台规则）
+
+### 自动聚合
+
+当单独的交易平台规则发生变化时，GitHub Actions 会自动重新生成 Trading Platform 合并规则。
+
+本地也可以手动执行：
+
+```
+python3 scripts/aggregate_trading_platform.py
+```
 
 ## 图标订阅
 

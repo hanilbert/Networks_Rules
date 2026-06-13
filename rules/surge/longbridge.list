@@ -6,15 +6,23 @@
 # DOMAIN-KEYWORD: 1
 # TOTAL: 11
 
-# Longbridge
+# === 长桥证券 Longbridge 核心主站与登录 ===
 DOMAIN-SUFFIX,longbridge.com
 DOMAIN-SUFFIX,longbridge.hk
 DOMAIN-SUFFIX,longbridgehk.com
 DOMAIN-SUFFIX,longbridge.cn
 DOMAIN-SUFFIX,longbridgeapp.com
+
+# === 接口状态服务 ===
 DOMAIN-SUFFIX,api-status.longbridgeapp.com
+
+# === Longbridge 后端服务 ===
 DOMAIN-SUFFIX,lbkrs.com
 DOMAIN-SUFFIX,lbctrl.com
+
+# === 辅助域名 ===
 DOMAIN-SUFFIX,pbkrs.com
 DOMAIN-SUFFIX,longportapp.com
+
+# === LBKRS 相关服务关键词 ===
 DOMAIN-KEYWORD,lbkrs
