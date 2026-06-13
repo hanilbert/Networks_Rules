@@ -13,11 +13,15 @@
 - Clash 规则配置
 - Surge 规则配置
 - 自定义分流规则
+- 自定义图标订阅
 
 ## 目录结构
 
 ```
 .
+├── Networks_Rules.json  # 图标订阅
+├── icons/          # 图标文件目录
+│   └── ibkr.jpg
 └── rules/          # 规则文件目录
     ├── clash/      # Clash 规则配置
     │   ├── exness.yaml
@@ -47,12 +51,27 @@
 ### 合并规则
 - Trading Platform（包含所有交易平台规则）
 
+## 图标订阅
+
+订阅地址：
+
+```
+https://raw.githubusercontent.com/hanilbert/Networks_Rules/main/Networks_Rules.json
+```
+
+当前图标：
+
+| 图标 | 名称 |
+| --- | --- |
+| <img src="icons/ibkr.jpg" width="64" alt="IBKR"> | IBKR |
+
 ## 使用说明
 
 1. 规则文件可以直接导入到相应的客户端使用
-2. 建议定期更新规则以保持最佳使用体验
-3. 部分规则可能需要根据个人需求进行自定义调整
-4. 可以选择使用单独的规则文件或合并规则文件
+2. 图标订阅地址可以添加到支持图标集订阅的客户端使用
+3. 建议定期更新规则以保持最佳使用体验
+4. 部分规则可能需要根据个人需求进行自定义调整
+5. 可以选择使用单独的规则文件或合并规则文件
 
 ## 注意事项
 

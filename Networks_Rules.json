@@ -1,0 +1,11 @@
+{
+  "name": "Networks Rules Icons",
+  "description": "Icons for Networks_Rules",
+  "time": "2026-06-13",
+  "icons": [
+    {
+      "name": "IBKR",
+      "url": "https://raw.githubusercontent.com/hanilbert/Networks_Rules/main/icons/ibkr.jpg"
+    }
+  ]
+}
