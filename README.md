@@ -29,6 +29,9 @@
     │   ├── thinkmarkets.yaml
     │   ├── easymarkets.yaml
     │   ├── ibkr.yaml
+    │   ├── futu.yaml
+    │   ├── tiger.yaml
+    │   ├── longbridge.yaml
     │   └── trading_platform.yaml    # 合并规则
     └── surge/      # Surge 规则配置
         ├── exness.list
@@ -36,6 +39,9 @@
         ├── thinkmarkets.list
         ├── easymarkets.list
         ├── ibkr.list
+        ├── futu.list
+        ├── tiger.list
+        ├── longbridge.list
         └── trading_platform.list    # 合并规则
 ```
 
@@ -47,6 +53,9 @@
 - ThinkMarkets
 - EasyMarkets
 - IBKR
+- Futu
+- Tiger
+- Longbridge
 
 ### 合并规则
 - Trading Platform（包含所有交易平台规则）

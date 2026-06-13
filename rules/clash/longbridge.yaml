@@ -1,0 +1,12 @@
+# NAME: Longbridge
+# AUTHOR: hanilbert
+# REPO: https://github.com/hanilbert/Networks_Rules
+# UPDATED: 2026-06-13
+# DOMAIN-SUFFIX: 1
+# DOMAIN-KEYWORD: 1
+# TOTAL: 2
+
+payload:
+  # Longbridge
+  - DOMAIN-SUFFIX,api-status.longbridgeapp.com
+  - DOMAIN-KEYWORD,lbkrs

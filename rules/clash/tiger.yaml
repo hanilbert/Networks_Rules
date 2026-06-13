@@ -1,0 +1,14 @@
+# NAME: Tiger
+# AUTHOR: hanilbert
+# REPO: https://github.com/hanilbert/Networks_Rules
+# UPDATED: 2026-06-13
+# DOMAIN-KEYWORD: 5
+# TOTAL: 5
+
+payload:
+  # Tiger Brokers
+  - DOMAIN-KEYWORD,skytigris
+  - DOMAIN-KEYWORD,laohu
+  - DOMAIN-KEYWORD,tigrwd
+  - DOMAIN-KEYWORD,tradeup
+  - DOMAIN-KEYWORD,itigerup

@@ -2,9 +2,10 @@
 # AUTHOR: hanilbert
 # REPO: https://github.com/hanilbert/Networks_Rules
 # UPDATED: 2026-06-13
-# DOMAIN-SUFFIX: 17
-# DOMAIN-KEYWORD: 6
-# TOTAL: 23
+# DOMAIN-SUFFIX: 32
+# DOMAIN-KEYWORD: 12
+# IP-CIDR: 24
+# TOTAL: 68
 
 payload:
   # Exness
@@ -41,6 +42,59 @@ payload:
 
   # === Zacks 财经图表/分析平台 ===
   - DOMAIN-SUFFIX,zacks.com
+
+  # Futu
+  - DOMAIN-SUFFIX,futunn.com
+  - DOMAIN-SUFFIX,futu5.com
+  - DOMAIN-SUFFIX,futuapi.com
+  - DOMAIN-SUFFIX,futuhn.com
+  - DOMAIN-SUFFIX,futuhk.com
+  - DOMAIN-SUFFIX,futufin.com
+  - DOMAIN-SUFFIX,fututrade.com
+  - DOMAIN-SUFFIX,futuesop.com
+  - DOMAIN-SUFFIX,futuin.com
+  - DOMAIN-SUFFIX,futuhk1.com
+  - DOMAIN-SUFFIX,futuhongkong.com
+  - DOMAIN-SUFFIX,moomoo.com
+  - DOMAIN-SUFFIX,futustatic.com
+  - DOMAIN-SUFFIX,qtlcdn.com
+
+  # Tiger Brokers
+  - DOMAIN-KEYWORD,skytigris
+  - DOMAIN-KEYWORD,laohu
+  - DOMAIN-KEYWORD,tigrwd
+  - DOMAIN-KEYWORD,tradeup
+  - DOMAIN-KEYWORD,itigerup
+
+  # Longbridge
+  - DOMAIN-SUFFIX,api-status.longbridgeapp.com
+  - DOMAIN-KEYWORD,lbkrs
+
+  # Tencent Cloud
+  - IP-CIDR,1.12.0.0/14
+  - IP-CIDR,14.152.0.0/16
+  - IP-CIDR,42.192.0.0/14
+  - IP-CIDR,43.128.0.0/11
+  - IP-CIDR,43.168.0.0/16
+  - IP-CIDR,43.174.0.0/16
+  - IP-CIDR,49.51.0.0/16
+  - IP-CIDR,49.232.0.0/14
+  - IP-CIDR,101.32.0.0/15
+  - IP-CIDR,106.52.0.0/14
+  - IP-CIDR,111.230.0.0/15
+  - IP-CIDR,114.132.0.0/14
+  - IP-CIDR,118.24.0.0/14
+  - IP-CIDR,118.88.0.0/14
+  - IP-CIDR,119.28.0.0/15
+  - IP-CIDR,119.91.0.0/16
+  - IP-CIDR,119.147.0.0/16
+  - IP-CIDR,121.4.0.0/15
+  - IP-CIDR,124.156.0.0/16
+  - IP-CIDR,129.211.0.0/16
+  - IP-CIDR,129.226.0.0/16
+  - IP-CIDR,170.106.0.0/16
+  - IP-CIDR,175.178.0.0/16
+  - IP-CIDR,193.112.0.0/16
 
   # === Akamai mPulse 性能统计服务（可选设为 REJECT 或 DIRECT，默认不启用） ===
   # DOMAIN-SUFFIX,go-mpulse.net
