@@ -2,10 +2,10 @@
 # AUTHOR: hanilbert
 # REPO: https://github.com/hanilbert/Networks_Rules
 # UPDATED: 2026-06-13
-# DOMAIN-SUFFIX: 32
+# DOMAIN-SUFFIX: 41
 # DOMAIN-KEYWORD: 12
 # IP-CIDR: 24
-# TOTAL: 68
+# TOTAL: 77
 
 payload:
   # Exness
@@ -67,7 +67,16 @@ payload:
   - DOMAIN-KEYWORD,itigerup
 
   # Longbridge
+  - DOMAIN-SUFFIX,longbridge.com
+  - DOMAIN-SUFFIX,longbridge.hk
+  - DOMAIN-SUFFIX,longbridgehk.com
+  - DOMAIN-SUFFIX,longbridge.cn
+  - DOMAIN-SUFFIX,longbridgeapp.com
   - DOMAIN-SUFFIX,api-status.longbridgeapp.com
+  - DOMAIN-SUFFIX,lbkrs.com
+  - DOMAIN-SUFFIX,lbctrl.com
+  - DOMAIN-SUFFIX,pbkrs.com
+  - DOMAIN-SUFFIX,longportapp.com
   - DOMAIN-KEYWORD,lbkrs
 
   # Tencent Cloud

@@ -2,10 +2,19 @@
 # AUTHOR: hanilbert
 # REPO: https://github.com/hanilbert/Networks_Rules
 # UPDATED: 2026-06-13
-# DOMAIN-SUFFIX: 1
+# DOMAIN-SUFFIX: 10
 # DOMAIN-KEYWORD: 1
-# TOTAL: 2
+# TOTAL: 11
 
 # Longbridge
+DOMAIN-SUFFIX,longbridge.com
+DOMAIN-SUFFIX,longbridge.hk
+DOMAIN-SUFFIX,longbridgehk.com
+DOMAIN-SUFFIX,longbridge.cn
+DOMAIN-SUFFIX,longbridgeapp.com
 DOMAIN-SUFFIX,api-status.longbridgeapp.com
+DOMAIN-SUFFIX,lbkrs.com
+DOMAIN-SUFFIX,lbctrl.com
+DOMAIN-SUFFIX,pbkrs.com
+DOMAIN-SUFFIX,longportapp.com
 DOMAIN-KEYWORD,lbkrs
