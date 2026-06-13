@@ -24,12 +24,14 @@
     │   ├── icmarkets.yaml
     │   ├── thinkmarkets.yaml
     │   ├── easymarkets.yaml
+    │   ├── ibkr.yaml
     │   └── trading_platform.yaml    # 合并规则
     └── surge/      # Surge 规则配置
         ├── exness.list
         ├── icmarkets.list
         ├── thinkmarkets.list
         ├── easymarkets.list
+        ├── ibkr.list
         └── trading_platform.list    # 合并规则
 ```
 
@@ -40,6 +42,7 @@
 - IC Markets
 - ThinkMarkets
 - EasyMarkets
+- IBKR
 
 ### 合并规则
 - Trading Platform（包含所有交易平台规则）

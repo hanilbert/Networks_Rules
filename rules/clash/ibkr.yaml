@@ -1,0 +1,22 @@
+# NAME: IBKR
+# AUTHOR: hanilbert
+# REPO: https://github.com/hanilbert/Networks_Rules
+# UPDATED: 2026-06-13
+# DOMAIN-SUFFIX: 4
+# PROCESS-NAME: 1
+# TOTAL: 5
+
+payload:
+  # === 盈透证券 IBKR 核心服务 ===
+  - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,interactivebrokers.com
+  - DOMAIN-SUFFIX,ibllc.com
+
+  # === 盈透证券 IBKR 桌面端 ===
+  - PROCESS-NAME,IBKR Desktop.app
+
+  # === Zacks 财经图表/分析平台 ===
+  - DOMAIN-SUFFIX,zacks.com
+
+  # === Akamai mPulse 性能统计服务（可选设为 REJECT 或 DIRECT，默认不启用） ===
+  # DOMAIN-SUFFIX,go-mpulse.net

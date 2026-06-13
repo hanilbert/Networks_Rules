@@ -1,10 +1,11 @@
 # NAME: Trading Platform
 # AUTHOR: hanilbert
 # REPO: https://github.com/hanilbert/Networks_Rules
-# UPDATED: 2024-03-19
-# DOMAIN-SUFFIX: 13
-# DOMAIN-KEYWORD: 7
-# TOTAL: 20
+# UPDATED: 2026-06-13
+# DOMAIN-SUFFIX: 17
+# DOMAIN-KEYWORD: 6
+# PROCESS-NAME: 1
+# TOTAL: 24
 
 payload:
   # Exness
@@ -32,4 +33,18 @@ payload:
   # EasyMarkets
   - DOMAIN-SUFFIX,easymarkets.com
   - DOMAIN-SUFFIX,optionsreasy.com
-  - DOMAIN-KEYWORD,easymarkets 
+  - DOMAIN-KEYWORD,easymarkets
+
+  # === 盈透证券 IBKR 核心服务 ===
+  - DOMAIN-SUFFIX,ibkr.com
+  - DOMAIN-SUFFIX,interactivebrokers.com
+  - DOMAIN-SUFFIX,ibllc.com
+
+  # === 盈透证券 IBKR 桌面端 ===
+  - PROCESS-NAME,IBKR Desktop.app
+
+  # === Zacks 财经图表/分析平台 ===
+  - DOMAIN-SUFFIX,zacks.com
+
+  # === Akamai mPulse 性能统计服务（可选设为 REJECT 或 DIRECT，默认不启用） ===
+  # DOMAIN-SUFFIX,go-mpulse.net
